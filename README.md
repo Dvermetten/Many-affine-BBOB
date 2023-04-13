@@ -2,6 +2,10 @@ This document details the reproduction steps for the paper "Many-affine BBOB fun
 
 The core file for this project is the notebook 'Visualization.ipynb'
 
+# The affine function generator
+
+While all experiment scripts have the implementation of the function generator included, we also add a barebones version of the generator in 'affine_barebones.py' to show how to use it as a normal iohprofiler-based benchmark problem.
+
 ## Determine the settings used
 In the notebook, the section 'Setup performance data collection' is used to generate the used weights, instance number and optima location. Each of these are stored to their corresponding csv-file.
 
