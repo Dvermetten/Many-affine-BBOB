@@ -1,0 +1,5 @@
+ioh>=0.3.9
+pflacco>=1.0
+numpy
+pandas
+nevergrad
